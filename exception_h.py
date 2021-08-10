@@ -5,11 +5,12 @@
 
 
 # order of precedence of except matters
+# when you dont want custion msg use: except Exception as e
 try:
-    file = open('trial.txt')
+    file = open('tial.txt')
     a = num
-except FileNotFoundError:  # exception can be in many form.
-    print("file not found!")  # we get custom error instead of long lines!
+except FileNotFoundError as e:  # exception can be in many form.
+    print(e)  # we get custom error instead of long lines!
 
-except Exception:
-    print("wrong variable declaration")
+except Exception as e:
+    print(e)
