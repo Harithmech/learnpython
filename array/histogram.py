@@ -1,6 +1,6 @@
 # total rain water trapped in histogram
 
-arr = [3, 0, 6, 1, 5]  # output :  4
+arr = [0, 1, 0, 2, 1, 3, 0, 2]  # output :  4
 
 n = len(arr)  # 8
 
