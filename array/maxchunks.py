@@ -7,7 +7,7 @@
 
 # Clue: chaining technique is used to make chunks
 
-arr = [1, 0, 2, 3, 4]
+arr = [1, 2, 0, 3, 4, 5]
 a = 0
 count = 1
 for i in range(1, len(arr)):
